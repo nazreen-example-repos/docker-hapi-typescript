@@ -1,0 +1,27 @@
+{
+  "name": "docker-hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess 'node ./dist/index.js'"
+  },
+  "keywords": [],
+  "author": "Nazreen Mohamad",
+  "license": "ISC",
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.0.1",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.2",
+    "@types/node": "^12.19.3",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.0.5"
+  }
+}
